@@ -7,6 +7,8 @@
 //
 
 #import "GameScene.h"
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+
 
 @implementation GameScene
 
