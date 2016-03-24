@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Firebase/Firebase.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //Required to setup the FacebookSDK to allow tracking on the EDGGI App page
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
+    
     return YES;
 }
 
@@ -33,7 +39,16 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
+    //Required to setup the FacebookSDK to allow tracking on the EDGGI App page
+    [FBSDKAppEvents activateApp];
+}
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    //Required to setup the FacebookSDK to allow tracking on the EDGGI App page
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                          openURL:url
+                                                sourceApplication:sourceApplication
+                                                       annotation:annotation];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
