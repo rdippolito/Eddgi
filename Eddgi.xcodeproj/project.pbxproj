@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1C17BC61CA380980077413D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C17BC51CA380980077413D /* main.m */; };
+		E1C17BC91CA380980077413D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C17BC81CA380980077413D /* AppDelegate.m */; };
+		E1C17BCC1CA380980077413D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C17BCB1CA380980077413D /* GameScene.m */; };
+		E1C17BCE1CA380980077413D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1C17BCD1CA380980077413D /* GameScene.sks */; };
+		E1C17BD11CA380980077413D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C17BD01CA380980077413D /* GameViewController.m */; };
+		E1C17BD41CA380980077413D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C17BD21CA380980077413D /* Main.storyboard */; };
+		E1C17BD61CA380980077413D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C17BD51CA380980077413D /* Assets.xcassets */; };
+		E1C17BD91CA380980077413D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C17BD71CA380980077413D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1C17BC11CA380980077413D /* Eddgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eddgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C17BC51CA380980077413D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1C17BC71CA380980077413D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1C17BC81CA380980077413D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1C17BCA1CA380980077413D /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		E1C17BCB1CA380980077413D /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		E1C17BCD1CA380980077413D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E1C17BCF1CA380980077413D /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		E1C17BD01CA380980077413D /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		E1C17BD31CA380980077413D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1C17BD51CA380980077413D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C17BD81CA380980077413D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1C17BDA1CA380980077413D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C17BBE1CA380980077413D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1C17BB81CA380980077413D = {
+			isa = PBXGroup;
+			children = (
+				E1C17BC31CA380980077413D /* Eddgi */,
+				E1C17BC21CA380980077413D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C17BC21CA380980077413D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C17BC11CA380980077413D /* Eddgi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C17BC31CA380980077413D /* Eddgi */ = {
+			isa = PBXGroup;
+			children = (
+				E1C17BC71CA380980077413D /* AppDelegate.h */,
+				E1C17BC81CA380980077413D /* AppDelegate.m */,
+				E1C17BCA1CA380980077413D /* GameScene.h */,
+				E1C17BCB1CA380980077413D /* GameScene.m */,
+				E1C17BCD1CA380980077413D /* GameScene.sks */,
+				E1C17BCF1CA380980077413D /* GameViewController.h */,
+				E1C17BD01CA380980077413D /* GameViewController.m */,
+				E1C17BD21CA380980077413D /* Main.storyboard */,
+				E1C17BD51CA380980077413D /* Assets.xcassets */,
+				E1C17BD71CA380980077413D /* LaunchScreen.storyboard */,
+				E1C17BDA1CA380980077413D /* Info.plist */,
+				E1C17BC41CA380980077413D /* Supporting Files */,
+			);
+			path = Eddgi;
+			sourceTree = "<group>";
+		};
+		E1C17BC41CA380980077413D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C17BC51CA380980077413D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C17BC01CA380980077413D /* Eddgi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C17BDD1CA380980077413D /* Build configuration list for PBXNativeTarget "Eddgi" */;
+			buildPhases = (
+				E1C17BBD1CA380980077413D /* Sources */,
+				E1C17BBE1CA380980077413D /* Frameworks */,
+				E1C17BBF1CA380980077413D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eddgi;
+			productName = Eddgi;
+			productReference = E1C17BC11CA380980077413D /* Eddgi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C17BB91CA380980077413D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Robert D'Ippolito";
+				TargetAttributes = {
+					E1C17BC01CA380980077413D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E1C17BBC1CA380980077413D /* Build configuration list for PBXProject "Eddgi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1C17BB81CA380980077413D;
+			productRefGroup = E1C17BC21CA380980077413D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C17BC01CA380980077413D /* Eddgi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C17BBF1CA380980077413D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C17BCE1CA380980077413D /* GameScene.sks in Resources */,
+				E1C17BD91CA380980077413D /* LaunchScreen.storyboard in Resources */,
+				E1C17BD61CA380980077413D /* Assets.xcassets in Resources */,
+				E1C17BD41CA380980077413D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C17BBD1CA380980077413D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C17BD11CA380980077413D /* GameViewController.m in Sources */,
+				E1C17BC91CA380980077413D /* AppDelegate.m in Sources */,
+				E1C17BCC1CA380980077413D /* GameScene.m in Sources */,
+				E1C17BC61CA380980077413D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1C17BD21CA380980077413D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C17BD31CA380980077413D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1C17BD71CA380980077413D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C17BD81CA380980077413D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1C17BDB1CA380980077413D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1C17BDC1CA380980077413D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C17BDE1CA380980077413D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eddgi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robert.Eddgi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1C17BDF1CA380980077413D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Eddgi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Robert.Eddgi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C17BBC1CA380980077413D /* Build configuration list for PBXProject "Eddgi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C17BDB1CA380980077413D /* Debug */,
+				E1C17BDC1CA380980077413D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C17BDD1CA380980077413D /* Build configuration list for PBXNativeTarget "Eddgi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C17BDE1CA380980077413D /* Debug */,
+				E1C17BDF1CA380980077413D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C17BB91CA380980077413D /* Project object */;
+}
