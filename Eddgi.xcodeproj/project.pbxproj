@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC3CDFC2CDF50CAB7495DDAC /* libPods-Eddgi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1632F756F16C6AE0636B3C7 /* libPods-Eddgi.a */; };
+		E1A07F981CA5F34400FCFD40 /* LoginSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A07F971CA5F34400FCFD40 /* LoginSignupViewController.m */; };
 		E1C17BC61CA380980077413D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C17BC51CA380980077413D /* main.m */; };
 		E1C17BC91CA380980077413D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C17BC81CA380980077413D /* AppDelegate.m */; };
 		E1C17BCC1CA380980077413D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C17BCB1CA380980077413D /* GameScene.m */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		A68791BC3D2063F6CAF02FCE /* Pods-Eddgi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eddgi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eddgi/Pods-Eddgi.debug.xcconfig"; sourceTree = "<group>"; };
 		C0F738A02361A796ECB9D108 /* Pods-Eddgi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eddgi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eddgi/Pods-Eddgi.release.xcconfig"; sourceTree = "<group>"; };
+		E1A07F961CA5F34400FCFD40 /* LoginSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSignupViewController.h; sourceTree = "<group>"; };
+		E1A07F971CA5F34400FCFD40 /* LoginSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSignupViewController.m; sourceTree = "<group>"; };
 		E1C17BC11CA380980077413D /* Eddgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eddgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C17BC51CA380980077413D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1C17BC71CA380980077413D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +60,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E1A07F951CA5F2EF00FCFD40 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E1C17BCF1CA380980077413D /* GameViewController.h */,
+				E1C17BD01CA380980077413D /* GameViewController.m */,
+				E1A07F961CA5F34400FCFD40 /* LoginSignupViewController.h */,
+				E1A07F971CA5F34400FCFD40 /* LoginSignupViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 		E1C17BB81CA380980077413D = {
 			isa = PBXGroup;
 			children = (
@@ -80,11 +94,10 @@
 			children = (
 				E1C17BC71CA380980077413D /* AppDelegate.h */,
 				E1C17BC81CA380980077413D /* AppDelegate.m */,
+				E1A07F951CA5F2EF00FCFD40 /* Menu */,
 				E1C17BCA1CA380980077413D /* GameScene.h */,
 				E1C17BCB1CA380980077413D /* GameScene.m */,
 				E1C17BCD1CA380980077413D /* GameScene.sks */,
-				E1C17BCF1CA380980077413D /* GameViewController.h */,
-				E1C17BD01CA380980077413D /* GameViewController.m */,
 				E1C17BD21CA380980077413D /* Main.storyboard */,
 				E1C17BD51CA380980077413D /* Assets.xcassets */,
 				E1C17BD71CA380980077413D /* LaunchScreen.storyboard */,
@@ -236,6 +249,7 @@
 				E1C17BD11CA380980077413D /* GameViewController.m in Sources */,
 				E1C17BC91CA380980077413D /* AppDelegate.m in Sources */,
 				E1C17BCC1CA380980077413D /* GameScene.m in Sources */,
+				E1A07F981CA5F34400FCFD40 /* LoginSignupViewController.m in Sources */,
 				E1C17BC61CA380980077413D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

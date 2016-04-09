@@ -28,6 +28,7 @@
 	<string>Main</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+        <string>fb965234716851875</string>
 		<string>fbauth2</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
